@@ -1,4 +1,4 @@
-在gtx 1060 3g上可以运行。一个sample要230s。一个epoch 25小时
+在gtx 1060 3g上可以运行。一个sample要130s。一个epoch 14小时
 
 # Patch-base progressive 3D Point Set Upsampling
 This is the official implementation for paper "[Patch-base progressive 3D Point Set Upsampling](https://arxiv.org/abs/1811.11286)".
