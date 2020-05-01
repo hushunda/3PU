@@ -122,7 +122,7 @@ Download training data as described [here](#input-points). Unzip to `record_data
 
 Train with poisson data
 ```
-python main_curriculum_interleave.py --phase train --id ppu --model dense_interlevelplus --num_point 312 --up_ratio 16 --step_ratio 2 --num_shape_point 5000 --no-repulsion --dense_n 3 --knn 32 --num_point 312 --up_ratio 16 --step_ratio 2 --num_shape_point 625 --record_data "../record_data/poisson_5000_poisson_10000_poisson_20000_poisson_40000_poisson_80000_p312_shard[0-9].tfrecord" \
+python main_curriculum_interleave.py --phase train --id ppu --model dense_interlevelplus --num_point 312 --up_ratio 16 --step_ratio 2 --num_shape_point 5000 --no-repulsion --dense_n 3 --knn 32 --num_point 312 --up_ratio 16 --step_ratio 2 --num_shape_point 625 --record_data "../record_data/poisson_5000_poisson_10000_poisson_20000_poisson_40000_poisson_80000_poisson_160000_p312_shard[0-9].tfrecord" \
 --stage_step 15000 --max_epoch 400 --gpu 0 --patch_num_ratio 3 --jitter --jitter_sigma 0.01 --jitter_max 0.03 \
 --test_data SEARCH_PATH_FOR_TEST_DATA
 ```
